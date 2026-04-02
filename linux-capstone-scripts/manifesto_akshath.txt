@@ -1,0 +1,10 @@
+=========================================
+       THE OPEN SOURCE MANIFESTO         
+       Author: akshath                 
+       Date: 31 March 2026                       
+=========================================
+
+Every single day, I rely on tools like blab to navigate the digital world.
+To me, the true essence of open-source software can be summarized as: blab.
+If given the opportunity, I would love to build blab and release it under
+a public license, ensuring that it remains accessible to the global community.
