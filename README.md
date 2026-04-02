@@ -27,19 +27,22 @@ Assume a clean Linux environment. To run these scripts, the following dependenci
 These scripts are fully executable via the command line and require no GUI-based setup.
 
 1. Clone this repository to your local Linux machine:
-
-    git clone https://github.com/Akshath-Sharma/oss-audit-24BAI10969.git
-
+```bash
+git clone https://github.com/Akshath-Sharma/oss-audit-24BAI10969.git
+```
 2. Navigate into the root directory of the repository:
-
-    cd oss-audit-24BAI10969
-
+```bash
+cd oss-audit-24BAI10969
+```
 3. Grant execution permissions to the scripts using chmod:
-
-    chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
-
-4. Execute the scripts directly from the terminal:
-
-    ./script1.sh
-
-*(Note: Script 4 requires command-line arguments to function. Example execution: ./script4.sh /var/log/dpkg.log installed)*
+```bash
+chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
+```
+4. Execute the scripts directly from the terminal (Example for script1):
+```bash
+./script1.sh
+```
+*(Note: Script 4 requires command-line arguments to function.)* 
+```bash
+./script4.sh /var/log/dpkg.log installed
+```
