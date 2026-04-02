@@ -5,7 +5,7 @@
 **Chosen Software:** LibreOffice  
 
 ## Overview
-This repository contains a suite of five Bash shell scripts developed as part of a comprehensive Capstone Audit of an open-source software project. These scripts demonstrate practical CLI-based Linux system administration, system querying, dependency auditing, and log analysis.
+This repository contains five Bash scripts created for my Open Source Software capstone. Together, they act as an automated audit of LibreOffice, handling everyday Linux administration tasks like analyzing logs, verifying packages, and checking file permissions.
 
 ## Description of Scripts
 * Script 1 (System Identity Report): Queries the OS distribution, active kernel, current user, and uptime, while displaying the governing GNU GPL license.
@@ -41,8 +41,14 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 4. Execute the scripts directly from the terminal (Example for script1):
 ```bash
 ./script1.sh
+./script2.sh
+./script3.sh
+./script5.sh
 ```
-*(Note: Script 4 requires command-line arguments to function.)* 
+
+## Special Instructions for Script 4 (Log File Analyzer)
+Unlike the others, Script 4 requires command-line arguments to function. The syntax is: 
 ```bash
-./script4.sh /var/log/dpkg.log installed
+./script4.sh <path_to_log_file> [search_keyword]
 ```
+*(Note: If you run the script without a valid file path, its built-in safety loop will catch the error and prompt you to manually type a valid path directly in the terminal).* 
